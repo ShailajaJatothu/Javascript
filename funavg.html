@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<html>
+    <title>Average of 6 numbers</title>
+</head>
+<body>
+    <script>
+        //with parameters with return value
+        function average1(number1,number2,number3,number4,number5,number6)
+        {
+            var result
+            result=(number1+number2+number3+number4+number5+number6)/6
+            return result
+        }
+        f1=average1(1,2,3,4,5,6)
+        alert(f1)
+        //withoutparametes with return value
+        function average2()
+        {
+            var number1,number2,number3,number4,number5,number6,result1
+            number1=1
+            number2=2
+            number3=3
+            number4=4
+            number5=5
+            number6=6
+            result1=(number1+number2+number3+number4+number5+number6)/6
+            return result1
+
+        }
+        f2=average2()
+        alert(f2)
+        //with parameters without return type
+        function average3(number1,number2,number3,number4,number5,number6)
+        {
+            var result
+            result=(number1+number2+number3+number4+number5+number6)/6
+            alert(result)
+        }
+        average3(1,2,3,4,5,6)
+        //without parameters without return value
+        function average4(number1,number2,number3,number4,number5,number6)
+        {
+            var result
+            number1=1
+            number2=2
+            number3=3
+            number4=4
+            number5=5
+            number6=6
+            result=(number1+number2+number3+number4+number5+number6)/6
+            return result
+        }
+        f4=average4()
+        alert(f4)
+
+    </script>
+</body>
+</html>

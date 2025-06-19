@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Simple Interest</title>
+    </head>
+    <body>
+        <script>
+            //with parameters with return value
+            function interest(principal,rate,time)
+            {
+                var total;
+                total=(principal*rate*time)/100;
+                return total
+
+            }
+            f1=interest(200,2,3)
+            alert(f1)
+            //withoutparametes and with return value
+            function interest2()
+            {
+                var total2,principal,rate,time;
+                principal=200
+                rate=2
+                time=3
+                total2=(principal*rate*time)/100;
+                return total2
+
+            }
+            f2=interest2()
+            alert(f2)
+            //with parameters without return value
+            function interest3(principal,rate,time)
+            {
+                var total3;
+                total3=(principal*rate*time)/100;
+                alert(total3)
+                
+
+            }
+            interest3(200,2,3)
+            
+            //without parameters without return value
+            function interest4()
+            {
+                var total4;
+                principal=200
+                rate=2
+                time=3
+                total4=(principal*rate*time)/100
+                alert(total4)
+
+            }
+            f1=interest4()
+            
+
+
+        
+        </script>
+    </body>
+</html>
+
